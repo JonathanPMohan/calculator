@@ -34,6 +34,10 @@ const calculate = (num1, num2, mathType) => {
         printToDom(calc.display, 'result');
    };
 
+   const setMathType = (newMathType) => {
+       calc.mathType = newMathType;
+   };
+
    const initialDisplay = () => {
        printToDom(0, 'result');
    }
