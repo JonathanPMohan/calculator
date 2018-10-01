@@ -1,6 +1,12 @@
 body {
-    background-color: burlywood;
-    color: darkcyan;
+    background-color: black;
+    color: rgb(121, 3, 115);
     margin: 1%;
     padding: 1%;
+    background-image: url("./images/background.jpg");
+    text-align: center;
+}
+
+.result {
+    background-color: white;
 }
